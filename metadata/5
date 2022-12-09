@@ -1,0 +1,25 @@
+{
+    "token_id": "5",
+    "description": "Mammals",
+    "external_url": "https://github.com/snowkidind/mammals",
+    "attributes": [
+        {
+            "trait_type": "Mammal",
+            "value": "Parrot"
+        },
+        {
+            "trait_type": "Color",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Composition",
+            "value": "Outlined Fill"
+        }
+    ],
+    "name": "Allan and Steve",
+    "image": "https://bafybeicaryuvylkv6vlm5glydtg5qcc3n7sljw7rnj2nrcydta2qs4h274.ipfs.nftstorage.link/5.png"
+}

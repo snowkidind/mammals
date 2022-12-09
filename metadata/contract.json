@@ -1,0 +1,8 @@
+{
+    "name": "Mammals",
+    "description": "Snowkids Mammals",
+    "image": "https://bafybeicaryuvylkv6vlm5glydtg5qcc3n7sljw7rnj2nrcydta2qs4h274.ipfs.nftstorage.link/contract.png",
+    "external_link": "https://github.com/snowkidind",
+    "seller_fee_basis_points": 600,
+    "fee_recipient": "0x6582953E58e5eb466b8991D489054f2699519827"
+}

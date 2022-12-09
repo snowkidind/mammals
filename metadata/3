@@ -1,0 +1,25 @@
+{
+    "token_id": "3",
+    "description": "Mammals",
+    "external_url": "https://github.com/snowkidind/mammals",
+    "attributes": [
+        {
+            "trait_type": "Mammal",
+            "value": "Water Buffalo"
+        },
+        {
+            "trait_type": "Color",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Composition",
+            "value": "Outlined Fill"
+        }
+    ],
+    "name": "Bigfoot",
+    "image": "https://bafybeicaryuvylkv6vlm5glydtg5qcc3n7sljw7rnj2nrcydta2qs4h274.ipfs.nftstorage.link/3.png"
+}

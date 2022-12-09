@@ -1,0 +1,25 @@
+{
+    "token_id": "4",
+    "description": "Mammals",
+    "external_url": "https://github.com/snowkidind/mammals",
+    "attributes": [
+        {
+            "trait_type": "Mammal",
+            "value": "Water Buffalo"
+        },
+        {
+            "trait_type": "Color",
+            "value": "White"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Closed"
+        },
+        {
+            "trait_type": "Composition",
+            "value": "Outlined Fill"
+        }
+    ],
+    "name": "Poom",
+    "image": "https://bafybeicaryuvylkv6vlm5glydtg5qcc3n7sljw7rnj2nrcydta2qs4h274.ipfs.nftstorage.link/4.png"
+}

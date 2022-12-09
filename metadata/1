@@ -1,0 +1,25 @@
+{
+    "description": "Mammals",
+    "external_url": "https://github.com/snowkidind/mammals",
+    "name": "Snow",
+    "token_id": "1",
+    "attributes": [
+        {
+            "trait_type": "Mammal",
+            "value": "Tiger"
+        },
+        {
+            "trait_type": "Color",
+            "value": "White"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Composition",
+            "value": "Outlined Fill"
+        }
+    ],
+    "image": "https://bafybeicaryuvylkv6vlm5glydtg5qcc3n7sljw7rnj2nrcydta2qs4h274.ipfs.nftstorage.link/1.png"
+}
