@@ -1,8 +1,9 @@
-                                           
+```                                           
  _____ _____ _____ _____ _____ __    _____ 
 |     |  _  |     |     |  _  |  |  |   __|
 | | | |     | | | | | | |     |  |__|__   |
 |_|_|_|__|__|_|_|_|_|_|_|__|__|_____|_____|
+```
 https://opensea.io/collection/snowkids-mammals                
 
 Mammals - A test NFT that was pushed to production for the purpose of example
