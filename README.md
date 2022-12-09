@@ -42,7 +42,6 @@ Out of the box, there may be some linking issues with the scripts. The scripts w
 
 ```
   proveItem: async(imagePath, jsonPath) => {
-    console.log(imagePath, jsonPath)
     const image = await fs.readFileSync(imagePath, 'utf8')
     const json = await fs.readFileSync(jsonPath, 'utf8')
     const conc = image + json
