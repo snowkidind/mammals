@@ -9,9 +9,9 @@ const hre = require("hardhat");
 const ethers = hre.ethers
 
 const provenance = require('../metadata/provenance.json')
-const { dateutils, decimals } = require('../utils')
-const { timeFmtDb, dateNowUTC } = dateutils
-const { bigD, d, weiToDisplay, displayToWei } = decimals
+const { decimals } = require('../utils')
+
+const { d, displayToWei } = decimals
 
 const run = async () => {
   try {
