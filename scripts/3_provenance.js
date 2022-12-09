@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 const hre = require("hardhat");
 const ethers = hre.ethers
 
-const provenance = require('../../assets/metadata/provenance.json')
+const provenance = require('../metadata/provenance.json')
 const { decimals, file } = require('../utils')
 const { d } = decimals
 
