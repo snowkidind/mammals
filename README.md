@@ -30,9 +30,10 @@ I drew these myself in 2014
 
 ## Features:
 - provenance uses a special algorithm to determine the exact combination of metadata and image
-- compatible with (new) NFT royalty standards on open sea and rarible 
+- compatible with (new) NFT royalty standards on open sea (DefaultOperatorFilterer) and rarible (ERC 2981)
+- Uses open sea ERC721Enumerable, Pausable, Ownable
 
-This is the code that was used to deploy the mammals erc721 contract. 
+This is the code that was used to deploy the mammals contract. 
 
 Out of the box, there may be some linking issues with the scripts. The scripts will expect to see some libraries I use as well as data generated to link and prove the assets, which are in the media and metadata directory 
 (TODO: do a test run now that everything is consolidated here)
