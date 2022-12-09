@@ -3,35 +3,41 @@
 |     |  _  |     |     |  _  |  |  |   __|
 | | | |     | | | | | | |     |  |__|__   |
 |_|_|_|__|__|_|_|_|_|_|_|__|__|_____|_____|
-```
-https://opensea.io/collection/snowkids-mammals                
+```               
 
-Mammals - A test NFT that was pushed to production for the purpose of example
+# Mammals #
+ - An NFT that was pushed to production for the purpose of example
 
-View on etherscan: https://etherscan.io/address/0xd8c92d615a705ecc344ea08257ae81af1a83f535
+View on openSea: https://opensea.io/collection/snowkids-mammals 
 
-This NFT requires you set the provenance of an NFT before it can be minted. This can be useful for an artist who is producing several pieces of work over a long time.
+View deployment on etherscan: https://etherscan.io/address/0xd8c92d615a705ecc344ea08257ae81af1a83f535
 
-The Characters: 
+This NFT requires you set the provenance of an NFT before it can be minted. This can be useful for an artist who is producing several pieces of work over a long time. This is different than using CID's from ipfs because it combines all the associated elements into a single hash.
+
+# The Characters: #
 
 I drew these myself in 2014
 
-Snow - White tiger, blue eyes (Commonly used as my avatar on everything)
-Tony - Orange tiger, brown eyes
-Poom - White Water Buffalo, closed eyes
-Bigfoot - Black Water Buffalo, black eyes
-Allan and Steve - 2 Green Parrots, red eyes
+**Snow** - White tiger, blue eyes (Commonly used as my avatar on everything)
 
-Features:
-provenance uses a special algorithm to determine the exact combination of metadata and image
-compatible with (new) NFT royalty standards on open sea and rarible
+**Tony** - Orange tiger, brown eyes
+
+**Poom** - White Water Buffalo, closed eyes
+
+**Bigfoot** - Black Water Buffalo, black eyes
+
+**Allan and Steve** - 2 Green Parrots, red eyes
+
+## Features:
+- provenance uses a special algorithm to determine the exact combination of metadata and image
+- compatible with (new) NFT royalty standards on open sea and rarible 
 
 This is the code that was used to deploy the mammals erc721 contract. 
 
-Out of the box there may be some linking issues with the scripts. The scripts will expect to see some libraries I use as well as data generated to link and prove the assets, which are in the media and metadata directory 
+Out of the box, there may be some linking issues with the scripts. The scripts will expect to see some libraries I use as well as data generated to link and prove the assets, which are in the media and metadata directory 
 (TODO: do a test run now that everything is consolidated here)
 
-The provenance algorithm:
+## The provenance algorithm:
 
 ```
   proveItem: async(imagePath, jsonPath) => {
